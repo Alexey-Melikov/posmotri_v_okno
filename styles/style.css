@@ -1,3 +1,5 @@
+@import url(./right-side.css);
+@import url(./left-side.css);
 *,
 *::before,
 *::after {
@@ -13,7 +15,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -35,4 +37,29 @@ fieldset {
 ul,
 ol {
   list-style: none;
+}
+
+.content {
+  display: grid;
+  align-self: center;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 35px;
+  max-height: 534px;
+  margin-top: 133px;
+}
+
+.hover:hover {
+  opacity: 0.4;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
 }

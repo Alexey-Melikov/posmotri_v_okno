@@ -1,0 +1,54 @@
+.result {
+  position: relative;
+  height: 534px;
+  display: grid;
+  align-content: end;
+}
+
+.result__video-container {
+  margin: 78px 0 16px;
+  width: 711px;
+  height: 386px;
+}
+
+.result__video {
+  width: 100%;
+  height: 100%;
+}
+
+.search-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 194px;
+}
+
+.search-form__fieldset {
+  border: none;
+}
+
+.search-form__fieldset-title {
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+.search-form__textfield {
+  background-color: transparent;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+.search-form__submit-button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: center;
+  color: #ffffff;
+}
