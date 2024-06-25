@@ -45,7 +45,7 @@ ol {
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 35px;
   max-height: 534px;
-  margin-top: 133px;
+  margin-top: 85px;
 }
 
 .hover:hover {
