@@ -68,6 +68,8 @@
   height: 103px;
   gap: 0px;
   opacity: 0px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .more-button {
